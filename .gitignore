@@ -1,4 +1,9 @@
-# Node.js
+# Node.js module
 node_modules/
+
+# folder
+images/
+
+# file
 .env
 read.txt

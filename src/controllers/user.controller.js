@@ -129,5 +129,4 @@ const registerUser = asyncHandler( async (req, res) => {
 
 })
 
->>>>>>> user_logic
 export {registerUser}

@@ -1,9 +1,3 @@
-# Node.js module
-node_modules/
-
 # folder
-images/
+/backend_1/
 
-# file
-.env
-read.txt

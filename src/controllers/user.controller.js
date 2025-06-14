@@ -1,7 +1,6 @@
 import {asyncHandler} from '../utils/asyncHandler.js'
 import { User} from "../models/user.model.js"
 
-
 const registerUser = asyncHandler( async (req, res) => {
     // get user details from frontend
     // validation - not empty
@@ -105,7 +104,6 @@ const registerUser = asyncHandler( async (req, res) => {
         throw new ApiError(400, "Avatar file is required")
     }
    
-
     const user = await User.create({
         fullName,
         avatar: avatar.url,
